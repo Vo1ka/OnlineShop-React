@@ -60,7 +60,8 @@ class App extends React.Component {
             category: 'chairs',
             price: '49.99'
           },
-
+          
+        
         ],
         showFullItem: false,
         fullItem: {}

@@ -1,0 +1,42 @@
+main .item {
+    position: relative;
+    width: 30%;
+    margin-bottom: 50px;
+    background: #f5f5f5;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+  
+main .item img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    transition: transform 500ms ease;
+    cursor: pointer;
+}
+  
+  main .item img:hover{
+    transform: scale(1.10);
+    
+}
+header .shop-cart .item {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+  
+header .shop-cart .item img{
+    width: 70px;
+    float: left;
+    margin-right: 20px;
+}
+  
+header .shop-cart .item h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+  
+header .shop-cart .item b{
+    color: #797979;
+    font-weight: 600;
+}

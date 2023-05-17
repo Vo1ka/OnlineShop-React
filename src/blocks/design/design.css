@@ -1,0 +1,19 @@
+header .shop-cart .design{
+    width: 100%;
+    justify-self: center;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: none;
+    color: #222;
+    padding: 10px 30px;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: rgb(225, 125, 3);
+    cursor: pointer;
+    transition: opacity 500ms ease;
+}
+  
+header .shop-cart .design:hover{
+    opacity: 0.9;
+    
+}
